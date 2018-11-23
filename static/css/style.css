@@ -1,0 +1,64 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+  margin:0;
+  padding:0;
+ background-color: black;
+}
+div{
+  background-color: white;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  background: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.threeBox{
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contentBoxRow{
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.spacer{
+  height: 50px;
+  content: "";
+}
+
+.fiveContentBox{
+  float: left;
+  text-align: center;
+  width: 20%;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.movieListingImg{
+  width: 178.39px;
+  height: 264.28px;
+}
+
+#mainContainer {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+#companyName{
+  font-size: 18pt;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
