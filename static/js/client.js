@@ -34,6 +34,20 @@ $(document).ready(function() {
   });
 
   $.ajax({
+    url:"/GET-MOVIES-CONTENT3",
+    dataType: "html",
+    type: "GET",
+    data: {format: "html-list"},
+    success: function(data) {
+      console.log("SUCCESS HTML: ", data);
+      $('#htmlList').html(data);
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.log("ERROR:", jqXHR, textStatus, errorThrown);
+    }
+  });
+
+  $.ajax({
     url:"/GET-MOVIES-Titles",
     dataType: "json",
     type: "GET",
@@ -48,6 +62,14 @@ $(document).ready(function() {
         $('#movie' + i).html(data[i]);
         count++;
       }
+
+      let htmlStr = "<ul>";
+      for(let i = 0; i < data.length; i++) {
+          htmlStr += "<li>" + data[i] + "</li>";
+      }
+      htmlStr += "</ul>";
+      $("#jsonList").html(htmlStr);
+
     },
     error: function(jqXHR, textStatus, errorThrown) {
       console.log("ERROR:", jqXHR, textStatus, errorThrown);

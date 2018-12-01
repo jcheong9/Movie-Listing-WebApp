@@ -30,6 +30,14 @@ app.get('/GET-MOVIES-CONTENT2',function (req, res){
   res.send(dataList);
 });
 
+app.get('/GET-MOVIES-CONTENT3',function (req, res){
+  let dataList = null;
+
+  res.setHeader('Content-Type', 'text/html');
+  dataList = lists.getHTML3();
+  res.send(dataList);
+});
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 

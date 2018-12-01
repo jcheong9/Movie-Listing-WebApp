@@ -1,14 +1,14 @@
 body{
-  font-family: 'Noto Sans', sans-serif;
   margin:0;
   padding:0;
- background-color: black;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: black;
+
 }
 div{
   background-color: white;
 }
 footer{
-  position: absolute;
   bottom: 0;
   width: 90%;
   background: white;
@@ -45,6 +45,16 @@ footer{
   padding-bottom: 25px;
 
 }
+.twoContentBox{
+  float: left;
+  /* text-align: center; */
+  width: 46%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
 
 .movieListingImg{
   width: 178.39px;
@@ -59,6 +69,7 @@ footer{
 
 #companyName{
   font-size: 18pt;
+  padding-left: 40px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
