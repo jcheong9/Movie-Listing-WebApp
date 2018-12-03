@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $('#mainMenu #topTenMovie').click(function(e) {
+  $('#topTenMovie').click(function(e) {
     e.preventDefault();
     console.log("click!");
 

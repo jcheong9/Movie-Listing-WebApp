@@ -1,0 +1,26 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "\"# Movie-Listing-WebApp\"",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcheong9/Movie-Listing-WebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcheong9/Movie-Listing-WebApp/issues"
+  },
+  "homepage": "https://github.com/jcheong9/Movie-Listing-WebApp#readme"
+}
